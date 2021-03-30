@@ -13,19 +13,9 @@
   font-weight: 400;
 }
 
-.card{
-  border: none;
-  margin:20px 10px;
-  box-shadow: 0 0 20px 7px rgba(0, 0, 0, 0.15);
-}
-
-#main-img:hover{
-  transform: scale(1.1);
-  transition: 0.5s ease-in-out;
-}
-
-#contact-box{
-  box-shadow: 0 0 20px 7px rgba(0, 0, 0, 0.1);
+*{
+  margin: 0px;
+  padding: 0px;
 }
 
 #section1{
@@ -33,6 +23,17 @@
   overflow: hidden;
 }
 
+
+.card{
+  margin:20px 10px;
+  box-shadow: 0 0 20px 7px rgba(0, 0, 0, 0.14);
+}
+
 .fa-check{
   color: rgba(0, 138, 32, 1);
+}
+
+i:hover{
+  transform: scale(1.4);
+  transition: 0.3s ease-in-out;
 }
